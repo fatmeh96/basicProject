@@ -1,0 +1,8 @@
+The encrypt text is:
+'Puackich, hvhnkrally oaths phufhck. All ymr nhhd is Pykemn.'
+J.U.U.U Kmltin.
+mmps iks nmk eio; ---> hkmu
+The decrypt text is:
+'practice, eventually makes perfect. all you need is python.'
+j.r.r.r tolkin.
+oops its not him; ---> etor
