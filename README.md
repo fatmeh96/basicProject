@@ -7,9 +7,7 @@ In this phase I read the questions and understand what we are required to do, wh
 for reading and writing files, we have to we have to decrypt an encrypted file, and then we have to but the oroginal text and the decrypted text in one file. 
 For this last file that contains both texts (encrypted and decrypted), we have to count the number of lines, and to find the longest words and put them in a list,
 we have to return the list and the number of lines.
-We have to create a repository on github to connect our local one -of the project- to it with enabling our lecturer to access to it. After that we have to cretae 
-a README.md file (this file) to descripe the SDLC
-steps we did in this project.
+We have to create a repository on github to connect our local one -of the project that we have to declare it as a repository too- to it with enabling our lecturer to access to it. After that we have to cretae a README.md file (this file) to descripe the SDLCsteps we did in this project.
 The last step we have to do is to make a PULL REQUEST and to set our lecturer as a viewer.
 
 # Planning:
