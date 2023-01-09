@@ -9,4 +9,5 @@ def func1(file_path):
         with open('file2.txt', 'r') as f2:
             for line2 in f2:
                 s.write(line2)
+
 func1(res)

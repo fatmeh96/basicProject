@@ -8,7 +8,9 @@ lines_Number('result.txt')
 def longest_words(file_path):
     with open('result.txt','r') as res:
         str1=""
+        count=0
         for line in res:
+            count+=1
             for letter in line:
                 if letter.isalpha() or letter == " " or letter == '\n':
                     str1+=letter
@@ -24,4 +26,39 @@ def longest_words(file_path):
             if len(i) == max_length:
                 l.append(i)
     print(f"The list of longest words in the file are: {l}")
+
+    #printing each word in the list as the lines number
+    decrypt_lines=encrypt_lines=1
+    count-=(decrypt_lines+encrypt_lines)
+    lines=int(count/2)
+    for i in l:
+        print((i+" ")*lines)
+
 longest_words('result.txt')
+
+#printing a pattern:
+ll=[2,1,2]
+flag=True
+k=True
+while(flag==True):
+    for i in ll:
+        if i==2 and k==True:
+            print("*     *")
+            print("*     *")
+            print(" *   *")
+            continue
+        if i==1:
+            print("   *")
+            k = False
+            continue
+        if i==2 and k==False:
+            print(" *   *")
+            print("*     *")
+            print("*     *")
+            flag=False
+
+
+
+
+
+
