@@ -56,6 +56,7 @@ while(flag==True):
             print("*     *")
             print("*     *")
             flag=False
+#change check
 
 
 
