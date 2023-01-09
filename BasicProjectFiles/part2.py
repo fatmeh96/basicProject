@@ -15,7 +15,6 @@ def replaceChar(str1):
     file2.write(str2)
     # print(str2)
 
-
 def fileToStr(filePath):
     str1 = ""
     for line in filePath:

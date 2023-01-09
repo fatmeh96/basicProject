@@ -20,6 +20,8 @@ while(flag>=0):
         if dic1[k]==l[flag]:
             dicMost4[k]=l[flag]
     flag-=1
+# print(dicMost4)
+
 #etor
 originalList=['e','t','o','r']
 finalDic={}
